@@ -83,8 +83,7 @@ def start(update: Update, context: CallbackContext) -> int:
     reply_keyboard = [[scientific, technology], [channel, service_list]]
     update.message.reply_text('!سلام، لطفا یکی از گزینه ها را انتخاب کنید',
                               reply_markup=ReplyKeyboardMarkup(reply_keyboard, one_time_keyboard=True,
-                                                               input_field_placeholder='نوع خدمت؟'),
-                              parse_mode="markdown")
+                                                               input_field_placeholder='نوع خدمت؟'))
 
     return SERVICE_CHOOSE
 
@@ -104,8 +103,7 @@ def scientific_service(update: Update, context: CallbackContext) -> int:
     update.message.reply_text(':یکی از خدمات پژوهشی زیر را انتخاب کنید ',
                               reply_markup=ReplyKeyboardMarkup(reply_keyboard,
                                                                one_time_keyboard=True,
-                                                               input_field_placeholder='نوع خدمت پژوهشی؟'),
-                              parse_mode="markdown")
+                                                               input_field_placeholder='نوع خدمت پژوهشی؟'))
     return TYPE_OF_ARTICLE
 
 
@@ -122,8 +120,7 @@ def technology_service(update: Update, context: CallbackContext) -> int:
     logger.info("the chosen service of %s: %s", user.first_name, update.message.text)
     update.message.reply_text(':یکی از خدمات فناوری زیر را انتخاب کنید ',
                               reply_markup=ReplyKeyboardMarkup(reply_keyboard, one_time_keyboard=True,
-                                                               input_field_placeholder=' نوع خدمت فناوری؟'),
-                              parse_mode="markdown")
+                                                               input_field_placeholder=' نوع خدمت فناوری؟'))
     return TYPE_OF_ARTICLE
 
 
@@ -140,8 +137,7 @@ def article(update: Update, context: CallbackContext) -> int:
     reply_keyboard = article_type_keboard
     update.message.reply_text('لطفا نوع مطالعه خود را مشخص کنید:',
                               reply_markup=ReplyKeyboardMarkup(reply_keyboard, one_time_keyboard=True,
-                                                               input_field_placeholder='نوع مطالعه؟'),
-                              parse_mode="markdown")
+                                                               input_field_placeholder='نوع مطالعه؟'))
     return TYPE_OF_SERVICE
 
 
@@ -155,8 +151,7 @@ def no_article(update: Update, context: CallbackContext) -> int:
     user = update.message.from_user
 
     reply_keyboard = [['no type']]
-    update.message.reply_text('لطفا جهت ادامه فرایند سابمیت دکمه no type را بزنید:',reply_markup = ReplyKeyboardMarkup(reply_keyboard, one_time_keyboard=True),
-                              parse_mode="markdown")
+    update.message.reply_text('لطفا جهت ادامه فرایند سابمیت دکمه no type را بزنید:',reply_markup = ReplyKeyboardMarkup(reply_keyboard, one_time_keyboard=True))
 
     return TYPE_OF_SERVICE
 
@@ -177,8 +172,7 @@ def stype(update: Update, context: CallbackContext) -> int:
     logger.info("the project type of %s: %s", user.first_name, update.message.text)
     update.message.reply_text('.لطفا زمان تقریبی تحویل پروژه خود را مشخص کنید',
                               reply_markup=ReplyKeyboardMarkup(reply_keyboard, one_time_keyboard=True,
-                                                               input_field_placeholder='زمانبندی؟'),
-                              parse_mode="markdown")
+                                                               input_field_placeholder='زمانبندی؟'))
 
     return TIMINNG_OF_SERVICE
 
@@ -194,7 +188,7 @@ def timing(update: Update, context: CallbackContext) -> int:
 
     user = update.message.from_user
     logger.info("timing of %s: %s", user.first_name, update.message.text)
-    update.message.reply_text('لطفا عنوان پروژه خود را مشخص کنید', parse_mode="markdown")
+    update.message.reply_text('لطفا عنوان پروژه خود را مشخص کنید')
 
     return TITLE_OF_PROJECT
 
@@ -211,8 +205,7 @@ def title(update: Update, context: CallbackContext) -> int:
     user = update.message.from_user
     logger.info("Location of %s: %s", user.first_name, update.message.text)
     update.message.reply_text(
-        ':لطفا در مورد پروژه خود توضیح دهید. توضیحات باید کامل باشند و تمام موارد درخواستی باید ذکر شوند',
-        parse_mode="markdown")
+        ':لطفا در مورد پروژه خود توضیح دهید. توضیحات باید کامل باشند و تمام موارد درخواستی باید ذکر شوند')
 
     return DESCRIPTION_OF_PROJECT
 
@@ -228,8 +221,7 @@ def description(update: Update, context: CallbackContext) -> int:
     user = update.message.from_user
     logger.info("description of %s: %s", user.first_name, update.message.text)
     update.message.reply_text(
-        ' لطفا فایل کلی مربوط به پروژه خود را آپلود کنید (ترجیحا فایل زیپ). در صورت عدم وجود فایل /skip :را بزنید',
-        parse_mode="markdown")
+        ' لطفا فایل کلی مربوط به پروژه خود را آپلود کنید (ترجیحا فایل زیپ). در صورت عدم وجود فایل /skip :را بزنید')
 
     return FILE
 
@@ -247,8 +239,7 @@ def pfile(update: Update, context: CallbackContext) -> int:
     user_data['file_id'] = user_data['choice']
     del user_data['choice']
 
-    update.message.reply_text(' فایل دریافت شد. جهت تایید نهایی و ارسال به همکاران ما /send را بزنید',
-                              parse_mode="markdown")
+    update.message.reply_text(' فایل دریافت شد. جهت تایید نهایی و ارسال به همکاران ما /send را بزنید')
 
     return RECIEVE
 
@@ -264,7 +255,7 @@ def skip_file(update: Update, context: CallbackContext) -> int:
     update.message.reply_text(
         '.پروژه شما بدون فایل ارسالی با موفقیت ثبت شد.اطلاعات ثبت شده مورد بررسی قرار می گیرند و فایل نهایی پروژه توسط همکاران برای شما ارسال می شود',
         parse_mode="markdown")
-    update.message.reply_text(f'{facts_2_str(user_data)}', parse_mode="markdown")
+    update.message.reply_text(f'{facts_2_str(user_data)}')
     context.bot.send_message(chat_id='@RahenTestBotChannel', text=f'{facts_2_str(user_data)}')
 
     return ConversationHandler.END
@@ -286,8 +277,7 @@ def cancel(update: Update, context: CallbackContext) -> int:
     """Cancels and ends the conversation."""
     user = update.message.from_user
     logger.info("User %s canceled the conversation.", user.first_name)
-    update.message.reply_text('خداحافظ دوست عزیز', reply_markup=ReplyKeyboardRemove(),
-                              parse_mode="markdown")
+    update.message.reply_text('خداحافظ دوست عزیز', reply_markup=ReplyKeyboardRemove())
 
     return ConversationHandler.END
 
