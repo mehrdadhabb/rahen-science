@@ -141,7 +141,11 @@ def start(update: Update, context: CallbackContext) -> int:
 def language_choose(update: Update, context: CallbackContext) -> int:
     lang[0] = update.message.text
 
-    print(f'language is {lang[0]}')
+    user_data = context.user_data
+    user_name = update.message.chat.username
+    user_data['choice'] = user_name
+    user_data['username'] = '@' + user_data['choice']
+    del user_data['choice']
 
     reply_keyboard = [[scientific[lang[0]], technology[lang[0]]], [channel[lang[0]], service_list[lang[0]]]]
     update.message.reply_text(service_choose_txt[lang[0]],
@@ -156,7 +160,6 @@ def scientific_service(update: Update, context: CallbackContext) -> int:
     txt = update.message.text
 
     user_data = context.user_data
-    user_data['username'] = '@' + update.message.chat.username
     user_data['choice'] = txt
     user_data['service'] = user_data['choice']
     del user_data['choice']
