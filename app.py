@@ -32,88 +32,87 @@ LANGUAGE, SERVICE_CHOOSE, TYPE_OF_ARTICLE, TYPE_OF_SERVICE, TIMINNG_OF_SERVICE, 
 
 
 
-SERVICE_LIST_photo = {'en': 'pricing pictures/en.jpg',
-                      'fa': 'pricing pictures/fa.jpg'}
-service_list = {'fa': 'تعرفه کلی خدمات',
-                'en': 'Pricing'}
-scientific = {'fa': 'خدمات پژوهشی',
-              'en': 'Scientific Service'}
-technology = {'fa': 'خدمات فناوری',
-              'en': 'Technology Service'}
-channel = {'fa': 'کانال تلگرامی راهین و ارتباط با ادمین',
-           'en': 'Rahen Telegram Channel and admin ID'}
+SERVICE_LIST_photo = {'English': 'pricing pictures/en.jpg',
+                      'فارسی': 'pricing pictures/fa.jpg'}
+service_list = {'فارسی': 'تعرفه کلی خدمات',
+                'English': 'Pricing'}
+scientific = {'فارسی': 'خدمات پژوهشی',
+              'English': 'Scientific Service'}
+technology = {'فارسی': 'خدمات فناوری',
+              'English': 'Technology Service'}
+channel = {'فارسی': 'کانال تلگرامی راهین و ارتباط با ادمین',
+           'English': 'Rahen Telegram Channel and admin ID'}
 
-scientific_service_keyboard = {'fa': [['پایان نامه', 'پروپوزال', 'مقاله '],
+scientific_service_keyboard = {'فارسی': [['پایان نامه', 'پروپوزال', 'مقاله '],
                                       ['پیدا کردن ژورنال و سابمیت', 'چک کردن پلاجریسم', 'گرافیکال ابسترکت'],
                                       ['آنالیز آماری', 'پارافریزینگ', 'پکیج کامل دانشجویی، شامل تمامی موارد بالا']],
-                               'en': [['Thesis', 'Proposal', 'Article'],
+                               'English': [['Thesis', 'Proposal', 'Article'],
                                       ['Journal Finding and Submission', 'Plagiarism Check', 'Graphical Abstract'],
                                       ['Statistical Analysis', 'Paraphrasing', 'Full Package, All of the Above']]}
 
 scientific_service_list = {
-    'fa': ['پایان نامه', 'پروپوزال', 'آنالیز آماری', 'مقاله', 'پیدا کردن ژورنال و سابمیت', 'چک کردن پلاجریسم',
+    'فارسی': ['پایان نامه', 'پروپوزال', 'آنالیز آماری', 'مقاله', 'پیدا کردن ژورنال و سابمیت', 'چک کردن پلاجریسم',
            'پارافریزینگ', 'پکیج کامل دانشجویی، شامل تمامی موارد بالا', 'گرافیکال ابسترکت'],
-    'en': ['Thesis', 'Proposal', 'Statistical Analysis', 'Article',
+    'English': ['Thesis', 'Proposal', 'Statistical Analysis', 'Article',
            'Journal Finding and Submission', 'Plagiarism Check', 'Paraphrasing', 'Full Package, All of the Above',
            'Graphical Abstract']}
 
-technology_service_list = {'fa': ['ثبت اختراع', 'پروپوزال فناوری'],
-                           'en': ['Patent', 'Technology Proposal']}
+technology_service_list = {'فارسی': ['ثبت اختراع', 'پروپوزال فناوری'],
+                           'English': ['Patent', 'Technology Proposal']}
 
-article_list = {'fa': ['پایان نامه', 'پروپوزال', 'مقاله', 'پکیج کامل دانشجویی، شامل تمامی موارد بالا'],
-                'en': ['Thesis', 'Proposal', 'Article', 'Full Package, All of the Above']}
+article_list = {'فارسی': ['پایان نامه', 'پروپوزال', 'مقاله', 'پکیج کامل دانشجویی، شامل تمامی موارد بالا'],
+                'English': ['Thesis', 'Proposal', 'Article', 'Full Package, All of the Above']}
 
-no_article_list = {'fa': ['پیدا کردن ژورنال و سابمیت', 'چک کردن پلاجریسم', 'پارافریزینگ', 'آنالیز آماری', 'ثبت اختراع',
+no_article_list = {'فارسی': ['پیدا کردن ژورنال و سابمیت', 'چک کردن پلاجریسم', 'پارافریزینگ', 'آنالیز آماری', 'ثبت اختراع',
                           'پروپوزال فناوری', 'گرافیکال ابسترکت'],
-                   'en': ['Journal Finding and Submission', 'Plagiarism Check', 'Paraphrasing', 'Statistical Analysis',
+                   'English': ['Journal Finding and Submission', 'Plagiarism Check', 'Paraphrasing', 'Statistical Analysis',
                           'Patent', 'Technology Proposal', 'Graphical abstract']}
 
 article_type_list = {
-    'fa': ['مورد / شاهدی', 'مقطعی', 'کارآزمایی بالینی', 'توصیفی', 'علوم پایه', 'کوهورت', 'بررسی بيماران', 'مروری'],
-    'en': ['Case / Control', 'Cross-Sectional', 'Clinical Trial', 'Descriptive', 'Experimental', 'Cohort', 'Case Study',
+    'فارسی': ['مورد / شاهدی', 'مقطعی', 'کارآزمایی بالینی', 'توصیفی', 'علوم پایه', 'کوهورت', 'بررسی بيماران', 'مروری'],
+    'English': ['Case / Control', 'Cross-Sectional', 'Clinical Trial', 'Descriptive', 'Experimental', 'Cohort', 'Case Study',
            'Review']}
 
-article_type_keboard = {'fa': [['مورد / شاهدی', 'مقطعی', 'کارآزمایی بالینی', 'توصیفی'],
+article_type_keboard = {'فارسی': [['مورد / شاهدی', 'مقطعی', 'کارآزمایی بالینی', 'توصیفی'],
                                ['علوم پایه', 'کوهورت', 'بررسی بيماران', 'مروری']],
-                        'en': [['Case / Control', 'Cross-Sectional', 'Clinical Trial', 'Descriptive'],
+                        'English': [['Case / Control', 'Cross-Sectional', 'Clinical Trial', 'Descriptive'],
                                ['Experimental', 'Cohort', 'Case Study', 'Review']]}
 
-service_choose_txt = {'fa': '!سلام، لطفا یکی از گزینه ها را انتخاب کنید',
-                      'en': 'Hi, please choose one of the options'}
-scientific_service_txt = {'fa': 'یکی از خدمات پژوهشی زیر را انتخاب کنید: ',
-                          'en': 'Choose one of the following scientific services:'}
-technology_service_txt = {'fa': 'یکی از خدمات فناوری زیر را انتخاب کنید: ',
-                          'en': 'Choose one of the following technology services:'}
-article_txt = {'fa': 'لطفا نوع مطالعه خود را مشخص کنید:',
-               'en': 'Please specify the type of your study:'}
-no_article_txt = {'fa': 'لطفا جهت ادامه فرایند سابمیت دکمه no type را بزنید:',
-                  'en': 'Please click the no type button to continue the submission process:'}
-urgency_keyboard = {'fa': [['نیاز فوری', 'نیاز غیرفوری']],
-                    'en': [['urgent', 'non-urgent']]}
-stype_txt = {'fa': '.لطفا زمان تقریبی تحویل پروژه خود را مشخص کنید',
-             'en': 'Please indicate the approximate time you want your project delivered:'}
-timing_txt = {'fa': 'لطفا عنوان پروژه خود را مشخص کنید: ',
-              'en': 'Please specify the title of your project: '}
-title_txt = {'fa': 'لطفا در مورد پروژه خود توضیح دهید. توضیحات باید کامل باشند و تمام موارد درخواستی باید ذکر شوند: ',
-             'en': 'Please describe your project. Descriptions should include all the requested items: '}
+service_choose_txt = {'فارسی': '!سلام، لطفا یکی از گزینه ها را انتخاب کنید',
+                      'English': 'Hi, please choose one of the options'}
+scientific_service_txt = {'فارسی': 'یکی از خدمات پژوهشی زیر را انتخاب کنید: ',
+                          'English': 'Choose one of the following scientific services:'}
+technology_service_txt = {'فارسی': 'یکی از خدمات فناوری زیر را انتخاب کنید: ',
+                          'English': 'Choose one of the following technology services:'}
+article_txt = {'فارسی': 'لطفا نوع مطالعه خود را مشخص کنید:',
+               'English': 'Please specify the type of your study:'}
+no_article_txt = {'فارسی': 'لطفا جهت ادامه فرایند سابمیت دکمه no type را بزنید:',
+                  'English': 'Please click the no type button to continue the submission process:'}
+urgency_keyboard = {'فارسی': [['نیاز فوری', 'نیاز غیرفوری']],
+                    'English': [['urgent', 'non-urgent']]}
+stype_txt = {'فارسی': '.لطفا زمان تقریبی تحویل پروژه خود را مشخص کنید',
+             'English': 'Please indicate the approximate time you want your project delivered:'}
+timing_txt = {'فارسی': 'لطفا عنوان پروژه خود را مشخص کنید: ',
+              'English': 'Please specify the title of your project: '}
+title_txt = {'فارسی': 'لطفا در مورد پروژه خود توضیح دهید. توضیحات باید کامل باشند و تمام موارد درخواستی باید ذکر شوند: ',
+             'English': 'Please describe your project. Descriptions should include all the requested items: '}
 description_txt = {
-    'fa': ' لطفا فایل کلی مربوط به پروژه خود را آپلود کنید (ترجیحا فایل زیپ). در صورت عدم وجود فایل /skip :را بزنید',
-    'en': 'Please upload the overall file of your project (preferably zip file). If there is no file, press /skip.'}
-pfile_txt = {'fa': ' فایل دریافت شد. جهت تایید نهایی و ارسال به همکاران ما /send را بزنید',
-             'en': 'File received. Press /send for final approval and your information will be sent to our colleagues.'}
+    'فارسی': ' لطفا فایل کلی مربوط به پروژه خود را آپلود کنید (ترجیحا فایل زیپ). در صورت عدم وجود فایل /skip :را بزنید',
+    'English': 'Please upload the overall file of your project (preferably zip file). If there is no file, press /skip.'}
+pfile_txt = {'فارسی': ' فایل دریافت شد. جهت تایید نهایی و ارسال به همکاران ما /send را بزنید',
+             'English': 'File received. Press /send for final approval and your information will be sent to our colleagues.'}
 skip_file_txt = {
-    'fa': 'پروژه شما بدون فایل ارسالی با موفقیت ثبت شد.اطلاعات ثبت شده مورد بررسی قرار می گیرند و هزینه و توضیحات نهایی اجرای پروژه توسط همکاران برای شما ارسال می شود.',
-    'en': "Your project has been successfully submitted without the file. The registered information will be checked and the final cost and description of the project implementation will be sent to you by our colleagues."}
+    'فارسی': 'پروژه شما بدون فایل ارسالی با موفقیت ثبت شد.اطلاعات ثبت شده مورد بررسی قرار می گیرند و هزینه و توضیحات نهایی اجرای پروژه توسط همکاران برای شما ارسال می شود.',
+    'English': "Your project has been successfully submitted without the file. The registered information will be checked and the final cost and description of the project implementation will be sent to you by our colleagues."}
 recieved_info_txt = {
-    'fa': 'پروژه شما همراه با فایل ارسالی با موفقیت ثبت شد.اطلاعات ثبت شده مورد بررسی قرار می گیرند و هزینه و توضیحات نهایی پروژه توسط همکاران برای شما ارسال می گردد',
-    'en': 'Your project has been successfully submitted along with the file. The registered information will be checked and the final cost and description of the project implementation will be sent to you by our colleagues.'}
-bye_txt = {'fa': 'خداحافظ دوست عزیز',
-           'en': 'farewell dear friend'}
-channel_txt = {'fa': '''
+    'فارسی': 'پروژه شما همراه با فایل ارسالی با موفقیت ثبت شد.اطلاعات ثبت شده مورد بررسی قرار می گیرند و هزینه و توضیحات نهایی پروژه توسط همکاران برای شما ارسال می گردد',
+    'English': 'Your project has been successfully submitted along with the file. The registered information will be checked and the final cost and description of the project implementation will be sent to you by our colleagues.'}
+bye_txt = {'فارسی': 'خداحافظ دوست عزیز',
+           'English': 'farewell dear friend'}
+channel_txt = {'فارسی': '''
   آی دی کانال ما : t.me/RahenScience
   ارتباط با ما : @rahen_science''',
-               'en': ''''
-   Our Channel ID: t.me/RahenScience
+               'English': ''''
    Contact us: @rahen_science'''}
 
 
@@ -126,12 +125,12 @@ def facts_2_str(user_data: Dict[str, str]) -> str:
     return "\n".join(facts).join(['\n', '\n'])
 
 
-lang = ['en']
+lang = ['English']
 
 
 def start(update: Update, context: CallbackContext) -> int:
     """Starts the conversation and asks the user to choose a service."""
-    reply_keyboard = [['en', 'fa']]
+    reply_keyboard = [['English', 'فارسی']]
     update.message.reply_text('Please choose the bot language:',
                               reply_markup=ReplyKeyboardMarkup(reply_keyboard, one_time_keyboard=True))
 
@@ -362,32 +361,32 @@ def main() -> None:
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler('start', start)],
         states={
-            LANGUAGE: [MessageHandler(Filters.regex('^(en|fa)$'), language_choose)],
+            LANGUAGE: [MessageHandler(Filters.regex('^(English|فارسی)$'), language_choose)],
 
             SERVICE_CHOOSE: [
-                MessageHandler(Filters.regex('^(' + '|'.join([scientific['en']] + [scientific['fa']]) + ')$'),
+                MessageHandler(Filters.regex('^(' + '|'.join([scientific['English']] + [scientific['فارسی']]) + ')$'),
                                scientific_service),
                 # basically it is like an if/else statement
-                MessageHandler(Filters.regex('^(' + '|'.join([technology['en']] + [technology['fa']]) + ')$'),
+                MessageHandler(Filters.regex('^(' + '|'.join([technology['English']] + [technology['فارسی']]) + ')$'),
                                technology_service),
                 # you are determining which function to be run
-                MessageHandler(Filters.regex('^(' + '|'.join([channel['en']] + [channel['fa']]) + ')$'), channel_func),
+                MessageHandler(Filters.regex('^(' + '|'.join([channel['English']] + [channel['فارسی']]) + ')$'), channel_func),
                 # after getting a particular message and the state is the output message
-                MessageHandler(Filters.regex('^(' + '|'.join([service_list['en']] + [service_list['fa']]) + ')$'),
+                MessageHandler(Filters.regex('^(' + '|'.join([service_list['English']] + [service_list['فارسی']]) + ')$'),
                                service_list_func)],
             # comming from the functions (it is spitted out by its associated function)
 
             TYPE_OF_ARTICLE: [
-                MessageHandler(Filters.regex('^(' + '|'.join(article_list['en'] + article_list['fa']) + ')$'), article),
-                MessageHandler(Filters.regex('^(' + '|'.join(no_article_list['en'] + no_article_list['fa']) + ')$'),
+                MessageHandler(Filters.regex('^(' + '|'.join(article_list['English'] + article_list['فارسی']) + ')$'), article),
+                MessageHandler(Filters.regex('^(' + '|'.join(no_article_list['English'] + no_article_list['فارسی']) + ')$'),
                                no_article)],
 
             TYPE_OF_SERVICE: [MessageHandler(
-                Filters.regex('^(no type|' + '|'.join(article_type_list['en'] + article_type_list['fa']) + ')$'),
+                Filters.regex('^(no type|' + '|'.join(article_type_list['English'] + article_type_list['فارسی']) + ')$'),
                 stype)],
 
             TIMINNG_OF_SERVICE: [MessageHandler(
-                Filters.regex('^(no type|' + '|'.join(urgency_keyboard['en'][0] + urgency_keyboard['fa'][0]) + ')$'),
+                Filters.regex('^(no type|' + '|'.join(urgency_keyboard['English'][0] + urgency_keyboard['فارسی'][0]) + ')$'),
                 timing)],
 
             TITLE_OF_PROJECT: [MessageHandler(Filters.text & ~Filters.command, title)],
