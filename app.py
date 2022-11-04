@@ -30,27 +30,10 @@ logger = logging.getLogger(__name__)
 LANGUAGE, SERVICE_CHOOSE, TYPE_OF_ARTICLE, TYPE_OF_SERVICE, TIMINNG_OF_SERVICE, TITLE_OF_PROJECT, DESCRIPTION_OF_PROJECT, FILE, RECIEVE = range(
     9)
 
-SERVICE_LIST = ''' :خدمات مشاوره و همکاری
 
-پایان نامه ۵ میلیون به بالا
-پروپوزال ۱.۵ میلیون به بالا
-آنالیز آماری ۵۰۰ هزار تا ۲ میلیون
-نوشتن مقاله ۵ میلیون به بالا
-پکیج کامل ۹ میلیون به بالا
-گرافیکال ابسترکت ۵۰۰ هزار تومان به بالا
-پیدا کردن ژورنال و سابمیت مقاله ۵۰۰ هزار تومان
-چک کردن پلاجریسم ۲۵۰ هزار تومان
-چک کردن پلاجریسم و پارافریز ۷۵۰ به بالا
-چک و تصحیح گرامر متن انگلیسی ۵۰۰ هزار تومان
-ثبت اختراع ۵ میلیون به بالا
-پروپوزال فناوری ۲ میلیون به بالا
 
-لازم به ذکر است خدمات بالا در
-.حوزه نگارش می باشد . انجام کار عملی و میدانی ، غیر اخلاقی بوده و انجام نمی گیرد
-'''
-
-SERVICE_LIST_photo = {'fa': 'pricing pictures/en.jpg',
-                      'en': 'pricing pictures/fa.jpg'}
+SERVICE_LIST_photo = {'en': 'pricing pictures/en.jpg',
+                      'fa': 'pricing pictures/fa.jpg'}
 service_list = {'fa': 'تعرفه کلی خدمات',
                 'en': 'Pricing'}
 scientific = {'fa': 'خدمات پژوهشی',
