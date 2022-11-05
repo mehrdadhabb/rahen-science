@@ -32,8 +32,8 @@ LANGUAGE, SERVICE_CHOOSE, TYPE_OF_ARTICLE, TYPE_OF_SERVICE, TIMINNG_OF_SERVICE, 
 
 
 
-SERVICE_LIST_photo = {'فارسی': '/pricing pictures/fa.jpg',
-                      'English': '/pricing pictures/en.jpg'}
+SERVICE_LIST_photo = {'فارسی': 'pricing pictures/fa.jpg',
+                      'English': 'pricing pictures/en.jpg'}
 service_list = {'فارسی': 'تعرفه کلی خدمات 💸',
                 'English': 'Pricing💸'}
 scientific = {'فارسی': 'خدمات پژوهشی 🧬',
