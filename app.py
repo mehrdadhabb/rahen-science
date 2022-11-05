@@ -41,7 +41,7 @@ scientific = {'فارسی': 'خدمات پژوهشی',
 technology = {'فارسی': 'خدمات فناوری',
               'English': 'Technology Service'}
 channel = {'فارسی': 'کانال تلگرامی راهین و ارتباط با ادمین',
-           'English': 'Rahen Telegram Channel and admin ID'}
+           'English': 'Rahen Science admin ID'}
 
 scientific_service_keyboard = {'فارسی': [['پایان نامه', 'پروپوزال', 'مقاله '],
                                       ['پیدا کردن ژورنال و سابمیت', 'چک کردن پلاجریسم', 'گرافیکال ابسترکت'],
@@ -112,7 +112,7 @@ bye_txt = {'فارسی': 'خداحافظ دوست عزیز',
 channel_txt = {'فارسی': '''
   آی دی کانال ما : t.me/RahenScience
   ارتباط با ما : @rahen_science''',
-               'English': ''''
+               'English': '''
    Contact us: @rahen_science'''}
 
 
