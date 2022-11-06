@@ -82,7 +82,7 @@ service_choose_txt = {'فارسی': ' 1⃣ ///  8⃣ سلام، لطفا یکی 
                       'English': '1⃣ /// 8⃣ Hi, please choose one of the options'}
 scientific_service_txt = {'فارسی': ' 2⃣ ///  8⃣ یکی از خدمات پژوهشی زیر را انتخاب کنید:',
                           'English': '2⃣ ///  8⃣ Choose one of the following scientific services: '}
-technology_service_txt = {'فارسی': ' 2⃣ ///  8⃣⃣ یکی از خدمات فناوری زیر را انتخاب کنید:',
+technology_service_txt = {'فارسی': ' 2⃣ ///  8⃣ یکی از خدمات فناوری زیر را انتخاب کنید:',
                           'English': '2⃣ ///  8⃣ Choose one of the following technology services: '}
 article_txt = {'فارسی': ' 3⃣ ///  8⃣ لطفا نوع مطالعه خود را مشخص کنید:',
                'English': '3⃣ /// 8⃣ Please specify the type of your study: '}
