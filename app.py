@@ -78,7 +78,7 @@ article_type_keboard = {'فارسی': [['مورد / شاهدی', 'مقطعی', '
                         'English': [['Case / Control', 'Cross-Sectional', 'Clinical Trial', 'Descriptive'],
                                ['Experimental', 'Cohort', 'Case Study', 'Review']]}
 
-service_choose_txt = {'فارسی': '! 1⃣ /// 8⃣ سلام، لطفا یکی از گزینه ها را انتخاب کنید',
+service_choose_txt = {'فارسی': ' 1⃣ ///  8⃣ سلام، لطفا یکی از گزینه ها را انتخاب کنید',
                       'English': '1⃣ /// 8⃣ Hi, please choose one of the options'}
 scientific_service_txt = {'فارسی': ' 2⃣ ///  8⃣ یکی از خدمات پژوهشی زیر را انتخاب کنید:',
                           'English': '2⃣ ///  8⃣ Choose one of the following scientific services: '}
@@ -86,11 +86,11 @@ technology_service_txt = {'فارسی': ' 2⃣ ///  8⃣⃣ یکی از خدما
                           'English': '2⃣ ///  8⃣ Choose one of the following technology services: '}
 article_txt = {'فارسی': ' 3⃣ ///  8⃣ لطفا نوع مطالعه خود را مشخص کنید:',
                'English': '3⃣ /// 8⃣ Please specify the type of your study: '}
-no_article_txt = {'فارسی': ' 3⃣ ///  8⃣⃣ لطفا جهت ادامه فرایند سابمیت دکمه no type را بزنید:',
+no_article_txt = {'فارسی': ' 3⃣ ///  8⃣ لطفا جهت ادامه فرایند سابمیت دکمه no type را بزنید:',
                   'English': '3⃣ /// 8⃣ Please click the no type button to continue the submission process: '}
 urgency_keyboard = {'فارسی': [['نیاز فوری🐎', 'نیاز غیرفوری🦥']],
                     'English': [['urgent🐎', 'non-urgent🦥']]}
-stype_txt = {'فارسی': '.4⃣ ///  8⃣ لطفا زمان تقریبی تحویل پروژه خود را مشخص کنید',
+stype_txt = {'فارسی': '4⃣ ///  8⃣ لطفا زمان تقریبی تحویل پروژه خود را مشخص کنید',
              'English': '4⃣ /// 8⃣ Please indicate the approximate time you want your project delivered:'}
 timing_txt = {'فارسی': '5⃣ ///  8⃣ لطفا عنوان پروژه خود را مشخص کنید: ',
               'English': '5⃣ /// 8⃣ Please specify the title of your project: '}
