@@ -78,7 +78,7 @@ article_type_keboard = {'فارسی': [['مورد / شاهدی', 'مقطعی', '
                         'English': [['Case / Control', 'Cross-Sectional', 'Clinical Trial', 'Descriptive'],
                                ['Experimental', 'Cohort', 'Case Study', 'Review']]}
 
-service_choose_txt = {'فارسی': ' 1⃣ ///  8⃣ سلام، لطفا یکی از گزینه ها را انتخاب کنید',
+service_choose_txt = {'فارسی': ' 1⃣ ///  8⃣ سلام، لطفا یکی از گزینه ها را انتخاب کنید.',
                       'English': '1⃣ /// 8⃣ Hi, please choose one of the options'}
 scientific_service_txt = {'فارسی': ' 2⃣ ///  8⃣ یکی از خدمات پژوهشی زیر را انتخاب کنید:',
                           'English': '2⃣ ///  8⃣ Choose one of the following scientific services: '}
@@ -110,8 +110,8 @@ skip_file_txt = {
 recieved_info_txt = {
     'فارسی': '✅ پروژه شما همراه با فایل ارسالی با موفقیت ثبت شد.اطلاعات ثبت شده مورد بررسی قرار می گیرند و هزینه و توضیحات نهایی پروژه توسط همکاران برای شما ارسال می گردد',
     'English': '✅ Your project has been successfully submitted along with the file. The registered information will be checked and the final cost and description of the project implementation will be sent to you by our colleagues.'}
-bye_txt = {'فارسی': 'خداحافظ دوست عزیز',
-           'English': 'farewell dear friend'}
+bye_txt = {'فارسی': 'به امید دیدار 🖐',
+           'English': 'See you soon 🖐'}
 channel_txt = {'فارسی': '''
   آی دی کانال ما : t.me/RahenScience
   ارتباط با ما : @rahen_science''',
